@@ -16,12 +16,6 @@
 | 資料範圍 | 只存本機，不做帳號、不連網路 |
 | Python | 不需要；之後若有輔助腳本再用 uv + Python 3.12 |
 
-## 已決定，待寫入 spec.md
-
-- 金額用 `Long` 存最小貨幣單位（TWD 就是「元」），不用 `Double`
-- 幣別：TWD
-- 一週起始日：星期一或星期日，由使用者選擇（見 J1）
-
 ## Phase 0 — 專案初始化
 
 - [ ] 決定 package name（`com.<name>.whereismymoney`）、minSdk、targetSdk
