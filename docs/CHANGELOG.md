@@ -3,10 +3,18 @@
 這份文件記錄每次版本更新的修改內容。
 
 - 格式參考 [Keep a Changelog](https://keepachangelog.com/zh-TW/1.1.0/)
-- 版本號遵循 [語意化版本](https://semver.org/lang/zh-TW/)，對應 Android 的 `versionName`
+- 版本號格式 `X.Y.Z`，對應 Android 的 `versionName`：
+  - `X` 正式版（`0` 代表還沒正式發布）
+  - `Y` 大改動
+  - `Z` 小改動
+- 每個版本在 git 打上 `vX.Y.Z` tag
 - 分類：`Added` 新增、`Changed` 變更、`Fixed` 修正、`Removed` 移除
 
 ## [Unreleased]
+
+## [0.1.0] - 2026-11-22
+
+專案規劃版本：建立文件與規則，完成第一批功能設計，還沒有程式碼。
 
 ### Added
 
